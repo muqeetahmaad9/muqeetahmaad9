@@ -41,7 +41,7 @@
 ### ⏰ **Digital Clock with RTC**  
 🔹 Real-time clock using **Arduino & DS3231 RTC Module**  
 🔹 Features: **Battery backup, alarm function**  
-🔗 [View on GitHub](https://github.com/yourusername/Digital-Clock-RTC)  
+🔗 [View on GitHub]](https://github.com/muqeetahmaad9/Digital-Clock-RTC))  
 
 ### 🌦️ **Weather App (Python & Colab)**  
 🔹 Fetches real-time **weather data** from OpenWeatherMap API  
