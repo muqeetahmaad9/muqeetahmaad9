@@ -51,7 +51,7 @@
 ### 📸 **QR Code Generator & Scanner**  
 🔹 Generates & scans QR codes using **Python & OpenCV**  
 🔹 Features: **Supports webcam scanning & Google Colab image upload**  
-🔗 [View on GitHub](https://github.com/yourusername/QR-Code-App)  
+🔗 [View on GitHub](https://github.com/muqeetahmaad9/QR-code-app))  
 
 ### 📰 **News App (Python & API Integration)**  
 🔹 Fetches **real-time news** using the News API  
