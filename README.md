@@ -16,12 +16,12 @@
 ### **💻 Programming & Software**  
 ✔️ Python, C++, C, Verilog  
 ✔️ MATLAB, SQL, HTML/CSS  
-✔️ Git, Docker, Jupyter Notebook  
+✔️ Git,colab, Jupyter Notebook  
 
 ### **⚡ Hardware & Embedded Systems**  
 ✔️ Arduino, Raspberry Pi, FPGA (Xilinx, Quartus)  
 ✔️ IoT (ESP8266, Firebase, MQTT)  
-✔️ AI/ML (TensorFlow, OpenCV, YOLO)  
+✔️ AI/ML (roboflow, OpenCV, YOLO)  
 
 ---
 
