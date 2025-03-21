@@ -31,12 +31,12 @@
 ### 🔒 **RFID-Based Door Lock System**  
 🔹 Secure access control using **RFID & Arduino**  
 🔹 Features: **Servo motor lock, buzzer alert, and multi-user authentication**  
-🔗 [View on GitHub](https://github.com/yourusername/RFID-Door-Lock)  
+🔗 [View on GitHub](https://github.com/muqeetahmaad9/RFID-Door-Lock)  
 
 ### 🌡️ **IoT-Based Temperature Monitoring**  
 🔹 Real-time **temperature & humidity** monitoring using **ESP8266**  
 🔹 Features: **Cloud storage, real-time alerts**  
-🔗 [View on GitHub](https://github.com/yourusername/IoT-Temperature-Monitor)  
+🔗 [View on GitHub]((https://github.com/muqeetahmaad9/IoT-Temperature-Monitor) )
 
 ### ⏰ **Digital Clock with RTC**  
 🔹 Real-time clock using **Arduino & DS3231 RTC Module**  
