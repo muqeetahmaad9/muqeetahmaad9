@@ -56,7 +56,7 @@
 ### 📰 **News App (Python & API Integration)**  
 🔹 Fetches **real-time news** using the News API  
 🔹 Features: **Category-based news filtering & text-based UI**  
-🔗 [View on GitHub](https://github.com/yourusername/News-App)  
+🔗 [View on GitHub](https://github.com/muqeetahmaad9/weather-app-colab))  
 
 ---
 
