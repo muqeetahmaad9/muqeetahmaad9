@@ -36,7 +36,7 @@
 ### 🌡️ **IoT-Based Temperature Monitoring**  
 🔹 Real-time **temperature & humidity** monitoring using **ESP8266**  
 🔹 Features: **Cloud storage, real-time alerts**  
-🔗 [View on GitHub]((https://github.com/muqeetahmaad9/IoT-Temperature-Monitor) )
+🔗 [View on GitHub](https://github.com/muqeetahmaad9/IoT-Temperature-Monitor)
 
 ### ⏰ **Digital Clock with RTC**  
 🔹 Real-time clock using **Arduino & DS3231 RTC Module**  
