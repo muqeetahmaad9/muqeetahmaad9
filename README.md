@@ -46,7 +46,7 @@
 ### 🌦️ **Weather App (Python & Colab)**  
 🔹 Fetches real-time **weather data** from OpenWeatherMap API  
 🔹 Features: **Supports GUI (Tkinter) & Google Colab version**  
-🔗 [View on GitHub](https://github.com/yourusername/Weather-App)  
+🔗 [View on GitHub](https://github.com/muqeetahmaad9/weather-app-colab))  
 
 ### 📸 **QR Code Generator & Scanner**  
 🔹 Generates & scans QR codes using **Python & OpenCV**  
