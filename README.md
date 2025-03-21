@@ -9,7 +9,7 @@
 
 ## 🚀 About Me  
 💻 **Computer Engineering Student** at **COMSATS University Islamabad, Attock Campus**  
-🎯 Interested in **AI-powered systems, FPGA, and IoT-based automation**  
+🎯 Interested in **AI-powered systems and IoT-based automation**  
 📚 Learning **Machine Learning, Computer Vision, and Embedded Systems**  
 
 ---
@@ -21,9 +21,9 @@
 ✔️ Git, Colab, Jupyter Notebook  
 
 ### **⚡ Hardware & Embedded Systems**  
-✔️ Arduino, Raspberry Pi, FPGA (Xilinx, Quartus)  
-✔️ IoT (ESP8266, Firebase, MQTT)  
-✔️ AI/ML (Roboflow, OpenCV, YOLO, TensorFlow)  
+✔️ Arduino, Raspberry Pi, FPGA (Xilinx)  
+✔️ IoT (ESP8266, Firebase, mathplot)  
+✔️ AI/ML (Roboflow, OpenCV, YOLO, )  
 
 ---
 
@@ -61,7 +61,6 @@
 ---
 
 ## 📫 Connect with Me  
-🌍 **Portfolio:** [your-portfolio-link]  
 💼 **LinkedIn:** [linkedin.com/in/muqeet--ahmad](https://linkedin.com/in/muqeet--ahmad)  
 📧 **Email:** [muqeetahmad155@gmail.com](mailto:muqeetahmad155@gmail.com)  
 
