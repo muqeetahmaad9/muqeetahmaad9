@@ -1,16 +1,54 @@
-## Hi there 👋
+# 👋 Hi, I'm Muqeet Ahmad!  
+### 🏅 Computer Engineer | AI & IoT Enthusiast | Embedded Systems Developer  
 
-<!--
-**muqeetahmaad9/muqeetahmaad9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🔹 Passionate about **AI, IoT, and Embedded Systems**  
+🔹 Experienced in **Python, C++, Verilog, and MATLAB**  
+🔹 Building **smart tech solutions with AI & automation**  
 
-Here are some ideas to get you started:
+## 🚀 About Me  
+💻 **Computer Engineering Student** at COMSATS University Islamabad, Attock Campus  
+🎯 Interested in **AI-powered systems, FPGA, and IoT-based automation**  
+📚 Learning **Machine Learning, Computer Vision, and RISC-V Architecture**  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🔧 Tech Skills  
+### **💻 Programming & Software**  
+✔️ Python, C++, C, Verilog  
+✔️ MATLAB, SQL, HTML/CSS  
+✔️ Git, Docker, Jupyter Notebook  
+
+### **⚡ Hardware & Embedded Systems**  
+✔️ Arduino, Raspberry Pi, FPGA (Xilinx, Quartus)  
+✔️ IoT (ESP8266, Firebase, MQTT)  
+✔️ AI/ML (TensorFlow, OpenCV, YOLO)  
+
+---
+
+## 📂 My Projects  
+### 🔒 **RFID-Based Door Lock System**  
+🔹 Secure access control using **RFID & Arduino**  
+🔹 Features: **Servo motor lock, buzzer alert, and multi-user authentication**  
+🔗 [View on GitHub](https://github.com/yourusername/RFID-Door-Lock)  
+
+### 🌡️ **IoT-Based Temperature Monitoring**  
+🔹 Real-time **temperature & humidity** monitoring using **ESP8266**  
+🔹 Features: **Cloud storage, real-time alerts**  
+🔗 [View on GitHub](https://github.com/yourusername/IoT-Temperature-Monitor)  
+
+### ⏰ **Digital Clock with RTC**  
+🔹 Real-time clock using **Arduino & DS3231 RTC Module**  
+🔹 Features: **Battery backup, alarm function**  
+🔗 [View on GitHub](https://github.com/yourusername/Digital-Clock-RTC)  
+
+---
+
+## 📫 Connect with Me  
+🌍 **Portfolio:** [your-portfolio-link]  
+💼 **LinkedIn:** [linkedin.com/in/muqeet--ahmad](https://linkedin.com/in/muqeet--ahmad)  
+📧 **Email:** [muqeetahmad155@gmail.com](mailto:muqeetahmad155@gmail.com)  
+
+---
+
+⭐ **Feel free to check out my projects and contributions!**  
+🚀 **Let’s build something amazing together!**  
