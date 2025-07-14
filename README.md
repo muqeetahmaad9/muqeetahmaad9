@@ -27,69 +27,59 @@
 
 ---
 
-📂 My Projects
-**🚁 AI-Based Drone Surveillance System**
+# 📂 My Projects
 
-🔹 Detects changes between baseline and current aerial videos using YOLOv8
-🔹 Features: Raspberry Pi deployment, template matching, and object detection
-**
-👥** Crowd Density Estimator**
+## 🚁 AI-Based Drone Surveillance System  
+- Detects changes between baseline and current aerial videos using **YOLOv8**  
+- Features: **Raspberry Pi deployment, template matching, and object detection**
 
-🔹 Real-time crowd density monitoring using YOLO and OpenCV
-🔹 Features: Heatmap overlay, threshold alerts, and Streamlit web app
+## 👥 Crowd Density Estimator  
+- Real-time crowd density monitoring using **YOLO and OpenCV**  
+- Features: **Heatmap overlay, threshold alerts, and Streamlit web app**
 
-📊** Data Science Dashboard**
+## 📊 Data Science Dashboard  
+- Interactive dashboard using **Pandas, Plotly, and Streamlit**  
+- Features: **Visualizations, filtering, and real-time analytics**
 
-🔹 Interactive dashboard using Pandas, Plotly, and Streamlit
-🔹 Features: Visualizations, filtering, and real-time analytics
+## 📄 AI Resume Screener  
+- Filters and ranks resumes using **NLP and keyword analysis**  
+- Features: **Score-based ranking, JSON output, and user-friendly interface**
 
-📄** AI Resume Screener**
+## 🛢️ Fuel Delivery System  
+- Web-based platform for managing **fuel delivery operations**  
+- Features: **HTML-based frontend and static order-tracking interface**
 
-🔹 Filters and ranks resumes using natural language processing (NLP)
-🔹 Features: Keyword matching, score-based ranking, and JSON-based output
+## 🧠 Face Recognition Attendance System  
+- Attendance marking using **DeepFace and real-time face recognition**  
+- Features: **Live webcam feed, automatic detection, and logging**
 
-🛢️** Fuel Delivery System**
+## 🌐 Real-Time Bandwidth Monitor with Live Meters  
+- Live bandwidth and internet speed tracker  
+- Features: **Real-time meter visuals using Python and terminal display**
 
-🔹 Web-based system for booking and managing fuel deliveries
-🔹 Features: HTML frontend with user interface for order and tracking
+## 📸 QR Code Generator & Scanner  
+- Generates and scans QR codes using **Python & OpenCV**  
+- Features: **Colab image upload and webcam integration**
 
-🧠 **Face Recognition Attendance System**
-🔹 Attendance system using DeepFace and OpenCV
-🔹 Features: Automatic face detection and attendance marking
+## 🌦️ Weather App (Python & Colab)  
+- Displays real-time **weather updates** using OpenWeatherMap API  
+- Features: **GUI via Tkinter and Colab-friendly version**
 
-🌐 **Real-Time Bandwidth Monitor with Live Meters**
+## 📰 News App (Python & API Integration)  
+- Fetches **latest news headlines** using NewsAPI  
+- Features: **Category filtering and text-based terminal UI**
 
-🔹 Monitors internet speed and bandwidth usage in real-time
-🔹 Features: Live meter visuals and Python backend
+## 🔒 RFID-Based Door Lock System  
+- Smart lock system using **RFID, Arduino, servo motor, and buzzer**  
+- Features: **Multi-user authentication and real-time access control**
 
-📸 **QR Code Generator & Scanner**
+## 🌡️ IoT-Based Temperature Monitoring  
+- Measures temperature and humidity using **ESP8266 & DHT sensor**  
+- Features: **Cloud integration and alert notifications**
 
-🔹 Generates and scans QR codes using Python & OpenCV
-🔹 Features: Webcam integration and Colab-compatible version
-
-🌦️** Weather App (Python & Colab)**
-
-🔹 Fetches live weather data from OpenWeatherMap API
-🔹 Features: Tkinter GUI and Google Colab version
-
-📰 **News App (Python & API Integration)**
-
-🔹 Retrieves latest news headlines by category using News API
-🔹 Features: Text-based terminal UI and category filter
-
-🔒 **RFID-Based Door Lock System**
-
-🔹 Secure access system with RFID, Arduino, and servo motor
-🔹 Features: Multi-user authentication and buzzer alerts
-
-🌡️ **IoT-Based Temperature Monitoring**
-
-🔹 Monitors temperature and humidity using ESP8266
-🔹 Features: Cloud logging and real-time threshold alerts
-
-⏰ **Digital Clock with RTC Module**
-🔹 Real-time digital clock using DS3231 RTC and Arduino
-🔹 Features: Battery backup and timekeeping
+## ⏰ Digital Clock with RTC Module  
+- Real-time digital clock with **DS3231 RTC Module and Arduino**  
+- Features: **Battery backup, time display, and optional alarm**
 
 ## 📫 Connect with Me  
 💼 **LinkedIn:** [linkedin.com/in/muqeet--ahmad](https://linkedin.com/in/muqeet--ahmad)  
