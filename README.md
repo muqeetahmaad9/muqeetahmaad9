@@ -2,13 +2,13 @@
 ### 🏅 Computer Engineer | AI & IoT Enthusiast | Embedded Systems Developer  
 
 🔹 Passionate about **AI, IoT, and Embedded Systems**  
-🔹 Experienced in **Python, C++, Verilog, and MATLAB**  
+🔹 Experienced in **Python, Html, Css, C++, Verilog, and MATLAB**  
 🔹 Building **smart tech solutions with AI & automation**  
 
 ---
 
 ## 🚀 About Me  
-💻 **Computer Engineering Student** at **COMSATS University Islamabad, Attock Campus**  
+💻 **Computer Engineer** From **COMSATS University Islamabad, Attock Campus**  
 🎯 Interested in **AI-powered systems and IoT-based automation**  
 📚 Learning **Machine Learning, Computer Vision, and Embedded Systems**  
 
