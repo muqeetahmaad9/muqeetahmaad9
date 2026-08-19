@@ -37,6 +37,55 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <filter id="softGlow" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="1.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadowBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+
+    <linearGradient id="hoodie" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2a33a"/>
+      <stop offset="100%" stop-color="#4a2a0a"/>
+    </linearGradient>
+    <linearGradient id="chair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a52"/>
+      <stop offset="100%" stop-color="#120730"/>
+    </linearGradient>
+    <radialGradient id="hair" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#8a4a12"/>
+      <stop offset="100%" stop-color="#2a1405"/>
+    </radialGradient>
+    <linearGradient id="cans" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffcf7a"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="desktop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8a6fd9"/>
+      <stop offset="100%" stop-color="#4a2f8f"/>
+    </linearGradient>
+    <linearGradient id="deskface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a52"/>
+      <stop offset="100%" stop-color="#150a2c"/>
+    </linearGradient>
+    <linearGradient id="bezel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e2444"/>
+      <stop offset="100%" stop-color="#120a24"/>
+    </linearGradient>
+    <radialGradient id="screenPink" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#4a2a0a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#1a0e04" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="screenCyan" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#3a2408" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#140c02" stop-opacity="1"/>
+    </radialGradient>
   </defs>
 
   <rect width="900" height="220" fill="url(#bg)"/>
@@ -56,18 +105,107 @@
     <animate attributeName="y" values="-60;220;-60" dur="6s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="450" y="106" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
+  <!-- coder-at-desk illustration -->
+  <g transform="translate(640,18)">
+
+    <ellipse cx="120" cy="188" rx="100" ry="9" fill="#000000" opacity="0.45" filter="url(#shadowBlur)"/>
+
+    <!-- decorative scatter -->
+    <g stroke="#7b2ff7" stroke-width="1.6" opacity="0.55" fill="none">
+      <path d="M2 4 h10 M7 -1 v10"/>
+      <path d="M232 96 h10 M237 91 v10"/>
+      <circle cx="206" cy="10" r="2" fill="#f72585" stroke="none"/>
+      <circle cx="10" cy="112" r="2" fill="#00fff2" stroke="none"/>
+    </g>
+
+    <!-- floating code bubble -->
+    <g transform="translate(214,34)" filter="url(#softGlow)">
+      <circle r="17" fill="#150a2c" stroke="#00fff2" stroke-width="1.6"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#00fff2">&lt;/&gt;</text>
+    </g>
+    <path d="M197 44 q-14 4 -20 14" stroke="#00fff2" stroke-width="1.2" stroke-dasharray="2 3" fill="none" opacity="0.6"/>
+
+    <!-- desk -->
+    <rect x="6" y="176" width="222" height="7" rx="2" fill="url(#deskface)"/>
+    <rect x="6" y="171" width="222" height="7" rx="2" fill="url(#desktop)"/>
+
+    <!-- chair back -->
+    <path d="M70 178 Q66 108 100 96 Q108 92 108 108 L108 178 Z" fill="url(#chair)" opacity="0.9"/>
+
+    <!-- left monitor -->
+    <g transform="translate(24,62) rotate(-6)" filter="url(#softGlow)">
+      <rect x="28" y="46" width="8" height="14" fill="url(#bezel)"/>
+      <rect x="14" y="58" width="36" height="5" rx="2" fill="url(#bezel)"/>
+      <rect x="0" y="0" width="64" height="46" rx="4" fill="url(#bezel)"/>
+      <rect x="4" y="4" width="56" height="38" rx="2" fill="url(#screenPink)"/>
+      <rect x="8" y="8" width="22" height="9" rx="1.5" fill="#f2a33a" opacity="0.75"/>
+      <rect x="32" y="8" width="24" height="9" rx="1.5" fill="#d97706" opacity="0.75"/>
+      <rect x="8" y="20" width="48" height="14" rx="1.5" fill="none" stroke="#ffcf7a" stroke-width="1.3" opacity="0.85"/>
+      <path d="M6 3 L58 3" stroke="#ffffff" stroke-width="1" opacity="0.15"/>
+    </g>
+
+    <!-- right monitor -->
+    <g transform="translate(126,58) rotate(7)" filter="url(#softGlow)">
+      <rect x="31" y="50" width="8" height="14" fill="url(#bezel)"/>
+      <rect x="16" y="62" width="38" height="5" rx="2" fill="url(#bezel)"/>
+      <rect x="0" y="0" width="70" height="50" rx="4" fill="url(#bezel)"/>
+      <rect x="4" y="4" width="62" height="42" rx="2" fill="url(#screenCyan)"/>
+      <g stroke="#f2a33a" stroke-width="2" opacity="0.9" stroke-linecap="round">
+        <path d="M10 12 H32"/>
+        <path d="M10 20 H46"/>
+        <path d="M10 28 H26"/>
+        <path d="M10 36 H40"/>
+      </g>
+      <rect x="42" y="34" width="6" height="8" fill="#f2a33a" stroke="none">
+        <animate attributeName="opacity" values="0.95;0.1;0.95" dur="1s" repeatCount="indefinite"/>
+      </rect>
+      <path d="M6 3 L64 3" stroke="#ffffff" stroke-width="1" opacity="0.15"/>
+    </g>
+
+    <!-- keyboard + mouse -->
+    <g transform="translate(78,168)">
+      <rect x="0" y="0" width="52" height="12" rx="2" fill="url(#bezel)"/>
+      <g fill="#f2a33a" opacity="0.4">
+        <rect x="4" y="3" width="4" height="3"/><rect x="10" y="3" width="4" height="3"/><rect x="16" y="3" width="4" height="3"/>
+        <rect x="22" y="3" width="4" height="3"/><rect x="28" y="3" width="4" height="3"/><rect x="34" y="3" width="4" height="3"/>
+        <rect x="40" y="3" width="4" height="3"/><rect x="46" y="3" width="4" height="3"/>
+        <rect x="6" y="7" width="30" height="3"/>
+      </g>
+      <ellipse cx="66" cy="5" rx="6" ry="5" fill="url(#bezel)"/>
+    </g>
+
+    <!-- person (back view) -->
+    <g transform="translate(112,86)">
+      <path d="M-34 92 Q-36 46 0 38 Q36 46 34 92 Z" fill="url(#hoodie)"/>
+      <path d="M-34 92 Q-36 46 0 38" fill="none" stroke="#d97706" stroke-width="1.6" opacity="0.7"/>
+      <path d="M34 92 Q36 46 0 38" fill="none" stroke="#ffcf7a" stroke-width="1.6" opacity="0.7"/>
+
+      <circle cx="0" cy="6" r="25" fill="url(#hair)"/>
+      <circle cx="-8" cy="-6" r="10" fill="#ffffff" opacity="0.06"/>
+
+      <path d="M-25 4 Q-25 -20 0 -20 Q25 -20 25 4" fill="none" stroke="url(#cans)" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="-25" cy="9" r="8" fill="url(#cans)"/>
+      <circle cx="25" cy="9" r="8" fill="url(#cans)"/>
+      <circle cx="-25" cy="9" r="2.4" fill="#ff4d1f"/>
+      <circle cx="25" cy="9" r="2.4" fill="#ff4d1f"/>
+
+      <path d="M-30 62 Q-40 74 -32 84" fill="none" stroke="url(#hoodie)" stroke-width="12" stroke-linecap="round"/>
+      <path d="M30 62 Q40 74 32 84" fill="none" stroke="url(#hoodie)" stroke-width="12" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <text x="315" y="106" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
         font-size="12" letter-spacing="6" fill="#f72585" opacity="0.85">
     &gt; whoami --secure
   </text>
 
-  <text x="450" y="150" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
-        font-weight="700" font-size="46" fill="#00fff2" filter="url(#glow)">
+  <text x="315" y="150" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
+        font-weight="700" font-size="40" fill="#00fff2" filter="url(#glow)">
     MUQEET AHMAD
   </text>
 
-  <text x="450" y="180" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
-        font-size="16" fill="#ff9df2" opacity="0.9">
+  <text x="315" y="180" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
+        font-size="15" fill="#ff9df2" opacity="0.9">
     AI/ML Enthusiast | Computer Engineer
   </text>
 </svg>
