@@ -43,11 +43,12 @@
 
 | Project | Description |
 |---|---|
+| [crowd-density-estimator](https://github.com/muqeetahmaad9/crowd-density-estimator) | ML model estimating crowd density from image/video data |
+| [student-performance-internship](https://github.com/muqeetahmaad9/student-performance-internship) | Student performance analysis using machine learning |
+| [climate-full-stack](https://github.com/muqeetahmaad9/climate-full-stack) | Full-stack climate data application (TypeScript) |
 | [RFID-Door-Lock](https://github.com/muqeetahmaad9/RFID-Door-Lock) | RFID-based smart access control system |
 | [IoT-Temperature-Monitor](https://github.com/muqeetahmaad9/IoT-Temperature-Monitor) | Real-time temperature monitoring over IoT |
 | [Digital-Clock-RTC](https://github.com/muqeetahmaad9/Digital-Clock-RTC) | Digital clock built with a real-time clock (RTC) module |
-| [weather-app-colab](https://github.com/muqeetahmaad9/weather-app-colab) | Weather data app built in Google Colab |
-| [newsapp-colab](https://github.com/muqeetahmaad9/newsapp-colab) | News aggregation app built in Google Colab |
 
 ### 🧰 Languages & Tools
 
