@@ -1,0 +1,73 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05020f"/>
+      <stop offset="55%" stop-color="#12063a"/>
+      <stop offset="100%" stop-color="#2a0a4a"/>
+    </linearGradient>
+
+    <pattern id="circuit" width="90" height="90" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#7b2ff7" stroke-width="1.2" opacity="0.35">
+        <path d="M0 20 H30 V45 H60 V20 H90"/>
+        <path d="M15 90 V65 H45 V90"/>
+        <path d="M45 0 V15 H75 V40"/>
+        <path d="M75 90 V70 H90"/>
+        <circle cx="30" cy="45" r="2.4" fill="#00fff2" stroke="none"/>
+        <circle cx="60" cy="20" r="2.4" fill="#00fff2" stroke="none"/>
+        <circle cx="45" cy="15" r="2.4" fill="#f72585" stroke="none"/>
+        <circle cx="75" cy="70" r="2.4" fill="#f72585" stroke="none"/>
+      </g>
+    </pattern>
+
+    <pattern id="binary" width="140" height="60" patternUnits="userSpaceOnUse">
+      <text x="4" y="16" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#00fff2" opacity="0.16">01001 10110</text>
+      <text x="18" y="40" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#f72585" opacity="0.14">1100 010111</text>
+    </pattern>
+
+    <linearGradient id="scan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00fff2" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00fff2" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00fff2" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="220" fill="url(#bg)"/>
+  <rect width="900" height="220" fill="url(#circuit)"/>
+  <rect width="900" height="220" fill="url(#binary)"/>
+
+  <rect width="900" height="220" fill="none" stroke="#00fff2" stroke-opacity="0.25" stroke-width="1"/>
+
+  <g stroke="#00fff2" stroke-width="2" opacity="0.8">
+    <path d="M14 14 H40 M14 14 V40"/>
+    <path d="M886 14 H860 M886 14 V40"/>
+    <path d="M14 206 H40 M14 206 V180"/>
+    <path d="M886 206 H860 M886 206 V180"/>
+  </g>
+
+  <rect x="0" y="-60" width="900" height="60" fill="url(#scan)">
+    <animate attributeName="y" values="-60;220;-60" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="450" y="106" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
+        font-size="12" letter-spacing="6" fill="#f72585" opacity="0.85">
+    &gt; whoami --secure
+  </text>
+
+  <text x="450" y="150" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
+        font-weight="700" font-size="46" fill="#00fff2" filter="url(#glow)">
+    MUQEET AHMAD
+  </text>
+
+  <text x="450" y="180" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
+        font-size="16" fill="#ff9df2" opacity="0.9">
+    AI/ML Enthusiast | Computer Engineer
+  </text>
+</svg>
