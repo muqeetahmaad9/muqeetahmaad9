@@ -64,12 +64,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=muqeetahmaad9&show_icons=true&theme=synthwave&hide_border=true" />
+  <img height="165" src="https://github-readme-stats-git-master-rickstaa.vercel.app/api?username=muqeetahmaad9&show_icons=true&theme=synthwave&hide_border=true" />
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=muqeetahmaad9&theme=synthwave&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muqeetahmaad9&layout=compact&theme=synthwave&hide_border=true" />
+  <img src="https://github-readme-stats-git-master-rickstaa.vercel.app/api/top-langs/?username=muqeetahmaad9&layout=compact&theme=synthwave&hide_border=true" />
 </p>
 
 **🏆 Trophies**
