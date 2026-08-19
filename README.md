@@ -54,7 +54,7 @@
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,cpp,js,arduino,tensorflow,git" />
-  <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" height="48" />
+  <img src="assets/colab-icon.svg" height="48" width="48" />
 </p>
 
 ### 📊 GitHub Stats
